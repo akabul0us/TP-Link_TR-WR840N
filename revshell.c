@@ -21,7 +21,7 @@ int main(){
 		socket_info = socket(AF_INET, SOCK_STREAM, 0);
 	    aanvaller_info.sin_family = AF_INET;
 	    aanvaller_info.sin_port = htons(4545);
-	    aanvaller_info.sin_addr.s_addr = inet_addr("192.168.3.222");
+	    aanvaller_info.sin_addr.s_addr = inet_addr("192.168.1.110");
 		printf("Set data.\n");
 		
 		printf("Trying to perform a new connection\n");
